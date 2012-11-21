@@ -1,0 +1,22 @@
+{
+  "name": "geekdaq",
+  "description": "random time-serie generator",
+  "version": "0.0.0",
+  "author": "Julian Bilcke <julian.bilcke@daizoru.com>",
+  "scripts"     : {
+    "build"     : "node_modules/coffee-script/bin/coffee --compile --output lib/ src/",
+    "watch"     : "node_modules/coffee-script/bin/coffee --watch --compile --output lib/ src/"
+  },
+  "main" : "./lib/geekdaq",
+  "repository": "http://github.com/daizoru/node-geekdaq.git",
+  "keywords": [
+    "timeseries"
+  ],
+  "license": "BSD",
+  "dependencies": {
+    "deck" : "0.0.4"
+  },
+  "devDependencies": {
+     "coffee-script" : "*"
+  }
+}
