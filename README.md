@@ -1,10 +1,13 @@
+node-geekdaq
+============
 
+ ![sample](https://raw.github.com/daizoru/node-geekdaq/master/docs/stock2.jpg)
 
 node-geekdaq is a random time-serie generator.
 
 You can use it for scenarios where you just want to test
-visualization / processing tools or real-time data, 
-and when you do not need to train a real ML algorithm.
+visualization or processing tools on real-time data, 
+and you don't need to train a real ML algorithm.
 
 See the /samples and /docs directory to see what generated data looks like.
 
@@ -17,4 +20,5 @@ var geekdaq = require("geekdaq");
 var generator = geekdaq.generator({ range: 5, levels: 100 });
 console.log(generator());
 console.log(generator());
-``
+```
+
