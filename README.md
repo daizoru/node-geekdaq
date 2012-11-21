@@ -2,8 +2,8 @@ node-geekdaq
 ============
 
  ![sample](https://raw.github.com/daizoru/node-geekdaq/master/docs/stock2.jpg)
-
-node-geekdaq is a random time-serie generator.
+ ![sample2](https://raw.github.com/daizoru/node-geekdaq/master/docs/stock1.jpg)
+node-geekdaq is a pure random time-serie generator.
 
 You can use it for scenarios where you just want to test
 visualization or processing tools on real-time data, 
