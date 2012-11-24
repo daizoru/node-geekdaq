@@ -8,6 +8,7 @@ exports.createMarket = (options={}) ->
   server         = options.server ? 'geekdaq'
   codes          = options.tickers ? []
   updateInterval = options.updateInterval ? 500
+  commissions    = options.commissions ? {buy: 0, sell: 0}
 
   randInt = (min,max) -> Math.round(min + Math.random() * (max - min))
 
@@ -28,3 +29,4 @@ exports.createMarket = (options={}) ->
   symbols: -> symbols
   tickers: -> tickers
   ticker: (code) -> tickers[code]
+  commissions: commissions
