@@ -21,3 +21,7 @@ console.log(generator());
 console.log(generator());
 ```
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/daizoru/node-geekdaq/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
